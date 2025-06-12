@@ -1,0 +1,13 @@
+const nestedArray = [1, [2, [3, [4, 5]]], 6, [7]];
+let a = nestedArray.flat(Infinity);
+console.log("a,3", a);
+a.splice(0, 0, 0, 1, 2);
+console.log("a,5", a);
+let b = a.slice(0, 5);
+console.log("b,7", b);
+a.shift();
+console.log("a,9", a);
+a.unshift(10, 11);
+console.log("a,11", a);
+let c = a.concat(b);
+console.log("c,13", c);

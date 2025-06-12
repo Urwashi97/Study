@@ -23,4 +23,4 @@ function BracketCombinations(num) {
 }
 
 // keep this function call here
-//console.log(BracketCombinations(readline()));
+console.log(BracketCombinations(4));

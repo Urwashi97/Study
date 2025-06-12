@@ -9,7 +9,7 @@ palindrom = (arr) => {
     const newName = name.toLowerCase();
     let palindrom = false;
     for (i = 0; i < (name.length - 1) / 2; i++) {
-      if (newName.charAt(1) == newName.charAt(newName.length - 1 - 1))
+      if (newName.charAt(i) == newName.charAt(newName.length - 1 - i))
         palindrom = true;
       else {
         palindrom = false;
