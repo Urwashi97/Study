@@ -9,7 +9,7 @@ function solution(N: number): number {
     }
   } else {
     for (let i = 0; i < array.length - 1; i++) {
-      if (array[i].length > o && array[i].length > count)
+      if (array[i].length > 0 && array[i].length > count)
         count = array[i].length;
     }
   }
@@ -29,3 +29,6 @@ function solution2(N: number): number {
   });
   return maxCount;
 }
+
+console.log(solution(1041)); // 5
+console.log(solution2(104909)); // 2
