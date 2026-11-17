@@ -17,3 +17,8 @@ for (let i = 0; i < 3; i++) {
 1
 2
 */
+
+//Assignment to constant variable.
+// for (const i = 0; i < 3; i++) {
+//   setTimeout(() => console.log(i), 1000);
+// }

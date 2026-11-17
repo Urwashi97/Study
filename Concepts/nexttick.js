@@ -7,3 +7,5 @@ run();
 setTimeout(() => {
     console.log("timer");
 }, 0);
+
+//Nothing prints

@@ -1,4 +1,4 @@
 const user = {
   profile: null,
 };
-console.log(user.profile?.name);
+console.log(user.profile?.name); //undefined
